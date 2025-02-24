@@ -2,6 +2,16 @@
     "files.associations": {
         "gpio.h": "c",
         "main.h": "c",
-        "stm32f4xx_hal.h": "c"
+        "stm32f4xx_hal.h": "c",
+        "stddef.h": "c",
+        "app_config.h": "c",
+        "sx126x_hal_context.h": "c",
+        "leds.h": "c",
+        "stm32f4xx_hal_spi.h": "c",
+        "spi.h": "c",
+        "stdbool.h": "c",
+        "sx126x.h": "c",
+        "stm32f4xx_hal_conf.h": "c",
+        "stm32f4xx_hal_uart.h": "c"
     }
 }
