@@ -57,6 +57,15 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define sx1262_busy_Pin GPIO_PIN_0
+#define sx1262_busy_GPIO_Port GPIOC
+#define sx1262_reset_Pin GPIO_PIN_0
+#define sx1262_reset_GPIO_Port GPIOB
+#define sx1262_dio1_Pin GPIO_PIN_1
+#define sx1262_dio1_GPIO_Port GPIOB
+#define sx1262_dio1_EXTI_IRQn EXTI1_IRQn
+#define sx1262_nss_Pin GPIO_PIN_0
+#define sx1262_nss_GPIO_Port GPIOD
 
 /* USER CODE BEGIN Private defines */
 

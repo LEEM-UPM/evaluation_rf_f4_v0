@@ -47,13 +47,17 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
-    # Add user sources here
-    app/app.c
+    BSP/sx126x_hal.c
+    Drivers/sx126x/src/sx126x_driver_version.c
+    Drivers/sx126x/src/sx126x.c
+    app/prueba_receive.c
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
-    # Add user defined include paths
+    app
+    BSP
+    Drivers/sx126x/src
 )
 
 # Add project symbols (macros)
