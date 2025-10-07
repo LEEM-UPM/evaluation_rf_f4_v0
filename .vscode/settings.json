@@ -12,6 +12,16 @@
         "stdbool.h": "c",
         "sx126x.h": "c",
         "stm32f4xx_hal_conf.h": "c",
-        "stm32f4xx_hal_uart.h": "c"
-    }
+        "stm32f4xx_hal_uart.h": "c",
+        "*.conf": "bitbake",
+        "*.inc": "bitbake"
+    },
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/sources/poky/bitbake/lib",
+        "${workspaceFolder}/sources/poky/meta/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/sources/poky/bitbake/lib",
+        "${workspaceFolder}/sources/poky/meta/lib"
+    ]
 }

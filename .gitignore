@@ -1,2 +1,7 @@
-build/
+## Lista de archivos a ignorar por git
+CMakeCache.txt
+cmake_install.cmake
 CMakeFiles/
+compile_commands.json
+build/
+build.ninja
